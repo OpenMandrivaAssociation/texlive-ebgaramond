@@ -6,7 +6,7 @@
 # catalog-version 0.15 (2013-05-22)
 Name:		texlive-ebgaramond
 Version:	0.15
-Release:	2
+Release:	3
 Summary:	LaTeX support for EBGaramond fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/ebgaramond
