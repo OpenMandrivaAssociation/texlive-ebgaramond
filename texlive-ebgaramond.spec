@@ -1,5 +1,5 @@
 Name:		texlive-ebgaramond
-Version:	20190407
+Version:	20190423
 Release:	1
 Summary:	LaTeX support for EBGaramond fonts
 Group:		Publishing
