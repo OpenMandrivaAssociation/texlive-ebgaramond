@@ -1,6 +1,6 @@
 Name:		texlive-ebgaramond
-Version:	64343
-Release:	2
+Version:	66604
+Release:	1
 Summary:	LaTeX support for EBGaramond fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/ebgaramond
