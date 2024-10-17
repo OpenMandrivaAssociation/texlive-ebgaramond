@@ -3,7 +3,7 @@ Version:	71069
 Release:	1
 Summary:	LaTeX support for EBGaramond fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/ebgaramond
+URL:		https://www.ctan.org/tex-archive/fonts/ebgaramond
 License:	OFL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ebgaramond.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ebgaramond.doc.r%{version}.tar.xz
