@@ -13,7 +13,8 @@ Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/ebgaramond.doc.r
 BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(xkeyval)
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Requires:	texlive-tlpkg
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 EB Garamond is a revival by Georg Duffner of the 16th century fonts
@@ -21,3 +22,10 @@ designed by Claude Garamond. The LaTeX support package works for
 (pdf)LaTeX, XeLaTeX and LuaLaTeX users; configuration files for use with
 microtype are provided.
 
+
+%install -a
+mkdir -p %{buildroot}%{_texmf_updmap_d}
+cat > %{buildroot}%{_texmf_updmap_d}/%{tl_name} <<'TL_DROPIN_EOF'
+# from ebgaramond:
+Map EBGaramond.map
+TL_DROPIN_EOF
